@@ -1,0 +1,3 @@
+insert into incr_tbl_testing values ('P1');
+SELECT lastval() into p_text;
+raise notice '%', p_text;  
